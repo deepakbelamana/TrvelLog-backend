@@ -6,4 +6,4 @@ def connectToDb():
         db=cluster.travellog
         return db
     except Exception as e :
-        return 'error occured'
+        return 'error occured connecting database'
